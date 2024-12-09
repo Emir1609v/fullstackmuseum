@@ -1,0 +1,59 @@
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 3em;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  justify-content: center;
+  
+}
+
+#img1 {
+  height: 300px;
+  width: 300px;
+  object-fit:scale-down;    
+}
+
+ .artikelen {
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+ .artikel {
+ padding: 1rem;
+border: solid;
+border-color: black;
+margin: 1.5rem;
+ }
+
+ .description {
+  width: 300px;
+  
+  
+ }
+ body {
+  margin: 0px;
+ }
+
+ header {
+  background-color: rgb(105, 103, 103);
+  padding: .5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+
+ button, input {
+  padding: .25rem;
+  border-radius: 10px;
+ }
+
+ p{
+  margin: 0px;
+  color: white;
+  /* background-color: #ad9253; */
+  display: flex;
+  align-content: center;
+  
+
+ }

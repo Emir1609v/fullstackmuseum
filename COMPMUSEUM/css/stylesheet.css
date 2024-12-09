@@ -1,0 +1,52 @@
+body { 
+  margin: 0;
+  margin-top: -25px;
+}
+
+.background {
+  height: 50vh;
+  background-image: url(../images/compmuseum.jpg); 
+  background-size: cover;
+  background-position: center;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  position: relative;
+  text-align: center; 
+}
+
+.navbar {
+  background-color: #333; 
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  position: relative; 
+}
+
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 5px 10px;
+  transition: background 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #555; 
+}
+
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Titel text in achtergrond foto */ 
+.abdullah { 
+  color: white;
+  font-size: 2.5rem; 
+  text-shadow: 3px 4px 5px rgba(208, 144, 5, 0.7); 
+  margin: 0; 
+}
